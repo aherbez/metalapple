@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="Tablet" package="com.example.tablet" version="1.0.0" company="Company Name" />
+	<window width="600" height="800" fps="30" orientation="portrait" resizable="false" />
+
+	<app main="Main" path="Export" file="Tablet" />
+	
+	<source path="Source" />
+	
+	<haxelib name="nme" />
+	<haxelib name="actuate" />
+	
+	<assets path="Assets" rename="assets" exclude="nme.svg" />
+	
+	<icon path="Assets/nme.svg" />
+	
+</project>
